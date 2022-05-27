@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "build",
+			"command": "gcc",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"-Wall",
+				// "${file}",	//只编译当前活动文件
+				// "main.c", "calculate.c",	//编译指定的若干文件
+				"${workspaceFolder}/src/*.c",	//编译文件夹下的所有源文件
+				"-o",
+				"${workspaceFolder}/out/${fileBasenameNoExtension}",
+				"-I",
+				"${workspaceFolder}/include"
+				
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/gcc"
+		}
+	]
+}

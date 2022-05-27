@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "uart.h": "c",
+        "decoder.h": "c",
+        "include.h": "c",
+        "matrix.h": "c",
+        "encoder.h": "c"
+    }
+}

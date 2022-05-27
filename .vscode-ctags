@@ -1,0 +1,235 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/qqyk321/work/zigzag_c/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/af30512/
+ALL_FINISHED	include/decoder.h	/^typedef enum ALL_FINISHED$/;"	g
+BIT_DECODED	include/decoder.h	/^typedef enum BIT_DECODED$/;"	g
+CHAR	include/include.h	/^typedef  char CHAR;$/;"	t	typeref:typename:char
+DECODEBALE	include/decoder.h	/^    DECODEBALE = 0,$/;"	e	enum:MESSAGE_DECODABLE
+DECODED	include/decoder.h	/^    DECODED = 0,$/;"	e	enum:BIT_DECODED
+DECODER	include/decoder.h	/^typedef struct DECODER{$/;"	s
+DECODER_B	include/decoder.h	/^#define DECODER_B /;"	d
+DECODE_STATUS	include/decoder.h	/^typedef enum DECODE_STATUS$/;"	g
+DECODE_SUCCESS	include/decoder.h	/^    DECODE_SUCCESS = 0,$/;"	e	enum:DECODE_STATUS
+DECODE_UNSUCCESS	include/decoder.h	/^    DECODE_UNSUCCESS,       \/*‘≠ º∑Ω∑®  *\/$/;"	e	enum:DECODE_STATUS
+DECODING	old/decoding_struct.h	/^typedef struct DECODING{$/;"	s
+DECODING_METHOD	include/decoder.h	/^typedef enum DECODING_METHOD$/;"	g
+ENCODER	include/encoder.h	/^typedef struct ENCODER$/;"	s
+ENCODING	old/struct.h	/^struct ENCODING$/;"	s
+FINISHED	include/decoder.h	/^    FINISHED = 0,$/;"	e	enum:ALL_FINISHED
+INFO_ERR	include/include.h	/^    #define INFO_ERR(/;"	d
+INFO_ERROR	include/include.h	/^#define INFO_ERROR /;"	d
+INFO_LOG	include/include.h	/^    #define INFO_LOG(/;"	d
+INFO_SWITCH	include/include.h	/^#define INFO_SWITCH /;"	d
+INT	include/include.h	/^typedef  int INT;$/;"	t	typeref:typename:int
+L	include/decoder.h	/^    UINT L;$/;"	m	struct:DECODER	typeref:typename:UINT
+L	include/encoder.h	/^    UINT L;$/;"	m	struct:ENCODER	typeref:typename:UINT
+L	include/ori_data.h	/^    INT L;$/;"	m	struct:ORI_DATA	typeref:typename:INT
+L	old/struct.h	/^    int L;$/;"	m	struct:ENCODING	typeref:typename:int
+L	old/struct.h	/^    int L;\/\/∑÷◊È÷–‘≠ º ˝æ›∞¸µƒ≥§∂»$/;"	m	struct:ORI_DATA	typeref:typename:int
+MATRIX	include/matrix.h	/^typedef struct  MATRIX$/;"	s
+MEMBER_CHAR	include/matrix.h	/^    MEMBER_CHAR,$/;"	e	enum:MENBER_TYPE
+MEMBER_INT	include/matrix.h	/^    MEMBER_INT,$/;"	e	enum:MENBER_TYPE
+MEMBER_UCHAR	include/matrix.h	/^    MEMBER_UCHAR,$/;"	e	enum:MENBER_TYPE
+MENBER_TYPE	include/matrix.h	/^typedef enum MENBER_TYPE$/;"	g
+MESSAGE_DECODABLE	include/decoder.h	/^typedef enum MESSAGE_DECODABLE$/;"	g
+ORI_DATA	include/ori_data.h	/^typedef struct ORI_DATA{$/;"	s
+ORI_DATA	old/struct.h	/^struct ORI_DATA$/;"	s
+ORI_ZIGZAF	include/decoder.h	/^    ORI_ZIGZAF = 0,       \/*‘≠ º∑Ω∑®  *\/$/;"	e	enum:DECODING_METHOD
+RETURN_FAILED	include/include.h	/^	RETURN_FAILED = -1,		      \/* ËøîÂõûÈîôËØØ *\/$/;"	e	enum:RETURN_VALUE
+RETURN_SUCCESS	include/include.h	/^    RETURN_SUCCESS = 0,       \/* ËøîÂõûÊàêÂäü *\/$/;"	e	enum:RETURN_VALUE
+RETURN_VALUE	include/include.h	/^enum RETURN_VALUE$/;"	g
+SHIFT	include/shift.h	/^typedef struct SHIFT{$/;"	s
+SHIFT_MATRIX	old/struct.h	/^struct SHIFT_MATRIX$/;"	s
+TEST_MATRIX	src/matrix.c	/^#define TEST_MATRIX /;"	d	file:
+UCHAR	include/include.h	/^typedef  unsigned char UCHAR;$/;"	t	typeref:typename:unsigned char
+UINT	include/include.h	/^typedef  unsigned int UINT;$/;"	t	typeref:typename:unsigned int
+UNDECODEBALE	include/decoder.h	/^    UNDECODEBALE,       \/*‘≠ º∑Ω∑®  *\/$/;"	e	enum:MESSAGE_DECODABLE
+UNDECODED	include/decoder.h	/^    UNDECODED,       \/*‘≠ º∑Ω∑®  *\/$/;"	e	enum:BIT_DECODED
+UNFINISHED	include/decoder.h	/^    UNFINISHED,       \/*‘≠ º∑Ω∑®  *\/$/;"	e	enum:ALL_FINISHED
+VOID	include/include.h	/^typedef  void VOID;$/;"	t	typeref:typename:void
+__DECODER_H__	include/decoder.h	/^#define __DECODER_H__$/;"	d
+__ENCODING_H__	include/encoder.h	/^#define __ENCODING_H__$/;"	d
+__INCLUDE_H__	include/include.h	/^#define __INCLUDE_H__$/;"	d
+__MATRIX_H__	include/matrix.h	/^#define __MATRIX_H__$/;"	d
+__NEED_INCULDE_H__	old/need_include.h	/^#define __NEED_INCULDE_H__$/;"	d
+__ORI_DATA_H__	include/ori_data.h	/^#define __ORI_DATA_H__$/;"	d
+__SHIFT_H__	include/shift.h	/^#define __SHIFT_H__$/;"	d
+__STRUCT_H__	old/struct.h	/^#define __STRUCT_H__$/;"	d
+__compare	src/matrix.c	/^static INT __compare(matrix_p self,UINT row_number,UINT *pos_min,UINT * pos){$/;"	f	typeref:typename:INT	file:
+__encode_s_thread	src/encoder.c	/^static INT __encode_s_thread(encoder_p self){$/;"	f	typeref:typename:INT	file:
+__get_encoding_message_pos	src/decoder.c	/^static INT __get_encoding_message_pos(decoder_p self,UINT i,UINT j,VOID ** encoding_message_pos)/;"	f	typeref:typename:INT	file:
+__init_encoding	old/struct.c	/^static int __init_encoding(struct ENCODING *self,int k,int n,int L,int shift_max)$/;"	f	typeref:typename:int	file:
+__init_ori_data	old/struct.c	/^static int __init_ori_data(struct ORI_DATA * self,int k,int L)$/;"	f	typeref:typename:int	file:
+__init_shift	old/struct.c	/^static int __init_shift(struct SHIFT_MATRIX * self,int k,int n,int shift_max)$/;"	f	typeref:typename:int	file:
+__load_encoding_message_from_encoder	src/decoder.c	/^static INT __load_encoding_message_from_encoder(decoder_p self,encoder_p encoder_instance){$/;"	f	typeref:typename:INT	file:
+__load_message_number	include/decoder.h	/^    UINT __load_message_number;\/\/”√”⁄»∑∂®“—æ≠”√¿¥Ω” ’µƒ ˝æ›∞¸µƒ ˝¡ø°£$/;"	m	struct:DECODER	typeref:typename:UINT
+__ori_zigzag_decode	src/decoder.c	/^static INT __ori_zigzag_decode(decoder_p self){$/;"	f	typeref:typename:INT	file:
+__ori_zigzag_finished_decode	src/decoder.c	/^static INT __ori_zigzag_finished_decode(decoder_p self){$/;"	f	typeref:typename:INT	file:
+__ori_zigzag_j_finished_decode	src/decoder.c	/^static INT __ori_zigzag_j_finished_decode(decoder_p self,UINT j){$/;"	f	typeref:typename:INT	file:
+__random_generate_ori_data	src/encoder.c	/^static INT __random_generate_ori_data(encoder_p self){$/;"	f	typeref:typename:INT	file:
+__random_generate_shift	src/encoder.c	/^static INT __random_generate_shift(encoder_p self){$/;"	f	typeref:typename:INT	file:
+__recover	src/decoder.c	/^static INT __recover(decoder_p self,UINT i,UINT j,UINT length){$/;"	f	typeref:typename:INT	file:
+__swap	src/matrix.c	/^static INT __swap(UINT *pos_1,UINT *pos_2){$/;"	f	typeref:typename:INT	file:
+__updata_encoding_message	src/decoder.c	/^static INT __updata_encoding_message(decoder_p self,UINT i,UINT j,VOID **encoding_message_pos ,U/;"	f	typeref:typename:INT	file:
+__update_R	src/decoder.c	/^static INT __update_R(decoder_p self,UINT i,UINT j,UINT length){$/;"	f	typeref:typename:INT	file:
+__update_decoding_message	src/decoder.c	/^static INT __update_decoding_message(decoder_p self,UINT j,VOID **encoding_message_pos,UINT leng/;"	f	typeref:typename:INT	file:
+all_finished	include/decoder.h	/^}all_finished;$/;"	t	typeref:enum:ALL_FINISHED
+bit_decoded	include/decoder.h	/^}bit_decoded;$/;"	t	typeref:enum:BIT_DECODED
+check_decoding_correct	src/decoder.c	/^decode_status check_decoding_correct(decoder_p decoder_isntance,encoder_p encoder_instance){$/;"	f	typeref:typename:decode_status
+close_encoding	old/struct.c	/^int close_encoding(struct ENCODING *self){$/;"	f	typeref:typename:int
+close_encoding	old/struct.h	/^    int (*close_encoding)(struct ENCODING *self);$/;"	m	struct:ENCODING	typeref:typename:int (*)(struct ENCODING * self)
+close_ori_data	old/struct.c	/^int close_ori_data(struct ORI_DATA *self)$/;"	f	typeref:typename:int
+close_ori_data	old/struct.h	/^    int (*close_ori_data)(struct ORI_DATA *self);\/\/πÿ±’$/;"	m	struct:ORI_DATA	typeref:typename:int (*)(struct ORI_DATA * self)
+close_shift	old/struct.c	/^int close_shift(struct SHIFT_MATRIX *self)\/\/πÿ±’$/;"	f	typeref:typename:int
+close_shift	old/struct.h	/^     int (*close_shift)(struct SHIFT_MATRIX *self);\/\/πÿ±’$/;"	m	struct:SHIFT_MATRIX	typeref:typename:int (*)(struct SHIFT_MATRIX * self)
+col_add	include/matrix.h	/^    INT(*col_add)(matrix_p self,UINT col_number,UINT increase);$/;"	m	struct:MATRIX	typeref:typename:INT (*)(matrix_p self,UINT col_number,UINT increase)
+col_add	src/matrix.c	/^static INT col_add(matrix_p self,UINT col_number,UINT increase){$/;"	f	typeref:typename:INT	file:
+col_size	include/matrix.h	/^    INT col_size;$/;"	m	struct:MATRIX	typeref:typename:INT
+data_p	old/struct.h	/^    unsigned char * data_p;\/\/ ˝æ›À˘‘⁄µƒŒª÷√$/;"	m	struct:ORI_DATA	typeref:typename:unsigned char *
+decode	include/decoder.h	/^    INT (*decode)(decoder_p self,zigzag_method method);\/\/–Ë“™Ã·«∞“—æ≠Ω” ’¡Àn∏ˆmessage$/;"	m	struct:DECODER	typeref:typename:INT (*)(decoder_p self,zigzag_method method)
+decode	src/decoder.c	/^static INT decode(decoder_p self,zigzag_method method){$/;"	f	typeref:typename:INT	file:
+decode_status	include/decoder.h	/^}decode_status;$/;"	t	typeref:enum:DECODE_STATUS
+decoder	include/decoder.h	/^}decoder;$/;"	t	typeref:struct:DECODER
+decoder_p	include/decoder.h	/^typedef struct DECODER * decoder_p;$/;"	t	typeref:struct:DECODER *
+decoding	old/decoding_struct.h	/^}decoding;/;"	t	typeref:struct:DECODING
+decoding_data_matrix_p	include/decoder.h	/^    matrix_p decoding_data_matrix_p;\/\/’Ê µΩ‚¬Î ±’Ê µ π”√µƒ$/;"	m	struct:DECODER	typeref:typename:matrix_p
+decoding_p	old/decoding_struct.h	/^typedef struct DECODING * decoding_p;$/;"	t	typeref:struct:DECODING *
+destroy_decoder	src/decoder.c	/^INT destroy_decoder(decoder_p self){$/;"	f	typeref:typename:INT
+destroy_encoder	src/encoder.c	/^INT destroy_encoder(encoder_p self)\/\/πÿ±’$/;"	f	typeref:typename:INT
+destroy_matrix	src/matrix.c	/^INT destroy_matrix(matrix_p self){$/;"	f	typeref:typename:INT
+destroy_ori_data	src/ori_data.c	/^INT destroy_ori_data(ori_data_p self)\/\/πÿ±’$/;"	f	typeref:typename:INT
+destroy_shift	src/shift.c	/^INT destroy_shift(shift_p self)\/\/πÿ±’$/;"	f	typeref:typename:INT
+encode	include/encoder.h	/^    INT (*encode)(encoder_p self);\/\/¿˚”√SHIFT_MATRIX∫Õ‘≠ º ˝æ›∞¸ORI_DATA…˙≥…n∏ˆ±‡¬Î ˝æ›∞¸$/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self)
+encode	old/struct.c	/^void encode(struct ENCODING *self)$/;"	f	typeref:typename:void
+encode	old/struct.h	/^    void (*encode)(struct ENCODING *self);\/\/¿˚”√SHIFT_MATRIX∫Õ‘≠ º ˝æ›∞¸ORI_DATA…˙≥…n∏ˆ±‡¬Î ˝æ/;"	m	struct:ENCODING	typeref:typename:void (*)(struct ENCODING * self)
+encode	src/encoder.c	/^INT encode(encoder_p self){$/;"	f	typeref:typename:INT
+encoder	include/encoder.h	/^}encoder;$/;"	t	typeref:struct:ENCODER
+encoder_p	include/encoder.h	/^typedef struct ENCODER * encoder_p;$/;"	t	typeref:struct:ENCODER *
+encoding_data_p	include/encoder.h	/^    matrix_p encoding_data_p;$/;"	m	struct:ENCODER	typeref:typename:matrix_p
+encoding_data_p	old/struct.h	/^    unsigned char * encoding_data_p;\/\/±‡¬Î ˝æ›∞¸±£¥Êµÿ∑Ω°£$/;"	m	struct:ENCODING	typeref:typename:unsigned char *
+generate_encoding_data	old/struct.c	/^int generate_encoding_data(struct ENCODING *self){$/;"	f	typeref:typename:int
+generate_encoding_data	old/struct.h	/^    int (*generate_encoding_data)(struct ENCODING *self);$/;"	m	struct:ENCODING	typeref:typename:int (*)(struct ENCODING * self)
+generate_ori_data	include/encoder.h	/^    INT (*generate_ori_data)(encoder_p self);$/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self)
+generate_ori_data	old/struct.c	/^void generate_ori_data(struct ORI_DATA *self)$/;"	f	typeref:typename:void
+generate_ori_data	old/struct.h	/^    void (*generate_ori_data)(struct ORI_DATA *self);\/\/ÀÊª˙≤˙…˙ ˝æ›$/;"	m	struct:ORI_DATA	typeref:typename:void (*)(struct ORI_DATA * self)
+generate_ori_data	src/encoder.c	/^INT generate_ori_data(encoder_p self){$/;"	f	typeref:typename:INT
+generate_shift	include/encoder.h	/^    INT (*generate_shift)(encoder_p self);$/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self)
+generate_shift	old/struct.c	/^void generate_shift(struct SHIFT_MATRIX *self)\/\/ÀÊª˙≤˙…˙“∆Œªæÿ’Û$/;"	f	typeref:typename:void
+generate_shift	old/struct.h	/^     void (*generate_shift)(struct SHIFT_MATRIX *self);\/\/ÀÊª˙≤˙…˙“∆Œªæÿ’Û$/;"	m	struct:SHIFT_MATRIX	typeref:typename:void (*)(struct SHIFT_MATRIX * self)
+generate_shift	src/encoder.c	/^INT generate_shift(encoder_p self){$/;"	f	typeref:typename:INT
+get_encoding_data_member	include/encoder.h	/^    INT (*get_encoding_data_member)(encoder_p self,UINT row_number,UINT col_number,VOID ** pos);$/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self,UINT row_number,UINT col_number,VOID ** pos)
+get_encoding_data_member	src/encoder.c	/^INT get_encoding_data_member(encoder_p self,UINT row_number,UINT col_number,VOID ** pos){$/;"	f	typeref:typename:INT
+get_member	include/matrix.h	/^    INT(*get_member)(matrix_p self,UINT row_number,UINT col_number, VOID ** pos);$/;"	m	struct:MATRIX	typeref:typename:INT (*)(matrix_p self,UINT row_number,UINT col_number,VOID ** pos)
+get_member	src/matrix.c	/^static INT get_member(matrix_p self,UINT row_number,UINT col_number,VOID** pos){$/;"	f	typeref:typename:INT	file:
+get_ori_data_member	include/encoder.h	/^    INT (*get_ori_data_member)(encoder_p self,UINT row_number,UINT col_number,VOID ** pos);$/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self,UINT row_number,UINT col_number,VOID ** pos)
+get_ori_data_member	include/ori_data.h	/^    INT (*get_ori_data_member)(ori_data_p self,UINT row_number,UINT col_number,VOID **pos);\/\/ª/;"	m	struct:ORI_DATA	typeref:typename:INT (*)(ori_data_p self,UINT row_number,UINT col_number,VOID ** pos)
+get_ori_data_member	src/encoder.c	/^INT get_ori_data_member(encoder_p self,UINT row_number,UINT col_number,VOID ** pos){$/;"	f	typeref:typename:INT
+get_ori_data_member	src/ori_data.c	/^static INT get_ori_data_member(ori_data_p self,UINT row_number,UINT col_number,VOID ** pos){$/;"	f	typeref:typename:INT	file:
+get_shift_member	include/encoder.h	/^    INT (*get_shift_member)(encoder_p self,UINT row_number,UINT col_number,VOID ** pos); $/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self,UINT row_number,UINT col_number,VOID ** pos)
+get_shift_member	include/shift.h	/^    INT (*get_shift_member)(shift_p self,UINT row_number,UINT col_number,VOID **pos);\/\/ªÒ»°ƒ≥∏/;"	m	struct:SHIFT	typeref:typename:INT (*)(shift_p self,UINT row_number,UINT col_number,VOID ** pos)
+get_shift_member	src/encoder.c	/^INT get_shift_member(encoder_p self,UINT row_number,UINT col_number,VOID ** pos){$/;"	f	typeref:typename:INT
+get_shift_member	src/shift.c	/^static INT get_shift_member(shift_p self,UINT row_number,UINT col_number,VOID ** pos){$/;"	f	typeref:typename:INT	file:
+init_decoder_from_encoder	src/decoder.c	/^INT init_decoder_from_encoder(decoder_p self,int n, int k,int L,int shift_max,encoder_p encoder_/;"	f	typeref:typename:INT
+init_encoder	src/encoder.c	/^INT init_encoder(encoder_p self,UINT k,UINT n,UINT L,UINT shift_max)\/\/°£  $/;"	f	typeref:typename:INT
+init_encoding	old/struct.c	/^int init_encoding(struct ENCODING *self,int k,int n,int L,int shift_max)$/;"	f	typeref:typename:int
+init_matrix	src/matrix.c	/^INT init_matrix(matrix_p self,UINT row_size,UINT col_size,CHAR * type){$/;"	f	typeref:typename:INT
+init_ori_data	old/struct.c	/^int init_ori_data(struct ORI_DATA *self,int k,int L)$/;"	f	typeref:typename:int
+init_ori_data	src/ori_data.c	/^INT init_ori_data(ori_data_p self,UINT k,UINT L)\/\/°£  $/;"	f	typeref:typename:INT
+init_shift	old/struct.c	/^int init_shift(struct SHIFT_MATRIX * self,int k,int n,int shift_max)\/\/°£  $/;"	f	typeref:typename:int
+init_shift	src/shift.c	/^INT init_shift(shift_p self,UINT k,UINT n,UINT shift_max)\/\/°£  $/;"	f	typeref:typename:INT
+k	include/decoder.h	/^    UINT k;$/;"	m	struct:DECODER	typeref:typename:UINT
+k	include/encoder.h	/^    UINT k;$/;"	m	struct:ENCODER	typeref:typename:UINT
+k	include/ori_data.h	/^    INT k;$/;"	m	struct:ORI_DATA	typeref:typename:INT
+k	include/shift.h	/^    INT k;$/;"	m	struct:SHIFT	typeref:typename:INT
+k	old/struct.h	/^     int k;$/;"	m	struct:SHIFT_MATRIX	typeref:typename:int
+k	old/struct.h	/^    int k;$/;"	m	struct:ENCODING	typeref:typename:int
+k	old/struct.h	/^    int k;\/\/∑÷◊È÷–‘≠ º ˝æ›∞¸µƒ∏ˆ ˝$/;"	m	struct:ORI_DATA	typeref:typename:int
+main	src/encoder.c	/^INT main(){$/;"	f	typeref:typename:INT
+main	src/matrix.c	/^int main(){$/;"	f	typeref:typename:int
+main	src/ori_data.c	/^INT main(){$/;"	f	typeref:typename:INT
+main	src/shift.c	/^INT main(){$/;"	f	typeref:typename:INT
+main	src/test_decoder.c	/^INT main(){$/;"	f	typeref:typename:INT
+main	test/test_encoder.c	/^INT main()$/;"	f	typeref:typename:INT
+main	test/test_encoding.c	/^int main()$/;"	f	typeref:typename:int
+main	test/test_matrix.c	/^int main(){$/;"	f	typeref:typename:int
+main	test/test_ori_data.c	/^int main()$/;"	f	typeref:typename:int
+main	test/test_shift.c	/^int main()$/;"	f	typeref:typename:int
+matrix	include/matrix.h	/^}matrix;$/;"	t	typeref:struct:MATRIX
+matrix_p	include/matrix.h	/^typedef struct MATRIX * matrix_p;$/;"	t	typeref:struct:MATRIX *
+member_type	include/matrix.h	/^}member_type;$/;"	t	typeref:enum:MENBER_TYPE
+message_decodeble	include/decoder.h	/^}message_decodeble;$/;"	t	typeref:enum:MESSAGE_DECODABLE
+n	include/decoder.h	/^    UINT n;$/;"	m	struct:DECODER	typeref:typename:UINT
+n	include/encoder.h	/^    UINT n;$/;"	m	struct:ENCODER	typeref:typename:UINT
+n	include/shift.h	/^    INT n;$/;"	m	struct:SHIFT	typeref:typename:INT
+n	old/struct.h	/^     int n;$/;"	m	struct:SHIFT_MATRIX	typeref:typename:int
+n	old/struct.h	/^    int n;$/;"	m	struct:ENCODING	typeref:typename:int
+norm	include/matrix.h	/^    INT (*norm)(matrix_p self);$/;"	m	struct:MATRIX	typeref:typename:INT (*)(matrix_p self)
+norm	src/matrix.c	/^static INT norm(matrix_p self){$/;"	f	typeref:typename:INT	file:
+ori_data	include/ori_data.h	/^}ori_data ;$/;"	t	typeref:struct:ORI_DATA
+ori_data	old/struct.h	/^    struct ORI_DATA * ori_data;$/;"	m	struct:ENCODING	typeref:struct:ORI_DATA *
+ori_data_matrix_p	include/decoder.h	/^    ori_data_p ori_data_matrix_p;$/;"	m	struct:DECODER	typeref:typename:ori_data_p
+ori_data_matrix_p	include/ori_data.h	/^    matrix_p ori_data_matrix_p;$/;"	m	struct:ORI_DATA	typeref:typename:matrix_p
+ori_data_p	include/encoder.h	/^    ori_data_p ori_data_p;$/;"	m	struct:ENCODER	typeref:typename:ori_data_p
+ori_data_p	include/ori_data.h	/^typedef struct  ORI_DATA * ori_data_p;$/;"	t	typeref:struct:ORI_DATA *
+ori_data_row_min	include/ori_data.h	/^    INT (*ori_data_row_min)(ori_data_p self,UINT row_number,UINT *pos_1,UINT *pos_2);\/\/ªÒ»°ƒ≥“ª/;"	m	struct:ORI_DATA	typeref:typename:INT (*)(ori_data_p self,UINT row_number,UINT * pos_1,UINT * pos_2)
+ori_data_row_min	src/ori_data.c	/^static INT ori_data_row_min(ori_data_p self,UINT row_number,UINT * pos_1,UINT * pos_2){$/;"	f	typeref:typename:INT	file:
+p	include/matrix.h	/^    VOID * p;$/;"	m	struct:MATRIX	typeref:typename:VOID *
+phi_p	include/decoder.h	/^    matrix_p phi_p;\/\/k*1æÿ’Û£¨”√”⁄¥Ê¥¢√ø∏ˆsource ˝æ›∞¸£¨œ¬“ª∏ˆ“™±ªªÿ∏¥µƒ ˝æ› ◊Œª$/;"	m	struct:DECODER	typeref:typename:matrix_p
+print_encoding_data	old/struct.c	/^int print_encoding_data(struct ENCODING *self)\/\/¥Ú”° ˝æ›$/;"	f	typeref:typename:int
+print_encoding_data	old/struct.h	/^    int (*print_encoding_data)(struct ENCODING *self);\/\/¥Ú”° ˝æ›$/;"	m	struct:ENCODING	typeref:typename:int (*)(struct ENCODING * self)
+print_ori_data	old/struct.c	/^int print_ori_data(struct ORI_DATA *self)$/;"	f	typeref:typename:int
+print_ori_data	old/struct.h	/^    int (*print_ori_data)(struct ORI_DATA *self);\/\/¥Ú”° ˝æ›$/;"	m	struct:ORI_DATA	typeref:typename:int (*)(struct ORI_DATA * self)
+print_shift	old/struct.c	/^int print_shift(struct SHIFT_MATRIX *self)\/\/¥Ú”° ˝æ›$/;"	f	typeref:typename:int
+print_shift	old/struct.h	/^     int (*print_shift)(struct SHIFT_MATRIX *self);\/\/¥Ú”° ˝æ›$/;"	m	struct:SHIFT_MATRIX	typeref:typename:int (*)(struct SHIFT_MATRIX * self)
+random_generate	include/matrix.h	/^    INT(*random_generate)(matrix_p self,UINT member_max); $/;"	m	struct:MATRIX	typeref:typename:INT (*)(matrix_p self,UINT member_max)
+random_generate	src/matrix.c	/^static INT random_generate(matrix_p self,UINT member_max){$/;"	f	typeref:typename:INT	file:
+random_generate_ori_data	include/ori_data.h	/^    INT (*random_generate_ori_data)(ori_data_p self);\/\/ÀÊª˙≤˙…˙“∆Œªæÿ’Û$/;"	m	struct:ORI_DATA	typeref:typename:INT (*)(ori_data_p self)
+random_generate_ori_data	src/ori_data.c	/^static INT random_generate_ori_data(ori_data_p self)\/\/ÀÊª˙≤˙…˙“∆Œªæÿ’Û$/;"	f	typeref:typename:INT	file:
+random_generate_shift	include/shift.h	/^    INT (*random_generate_shift)(shift_p self);\/\/ÀÊª˙≤˙…˙“∆Œªæÿ’Û$/;"	m	struct:SHIFT	typeref:typename:INT (*)(shift_p self)
+random_generate_shift	src/shift.c	/^static INT random_generate_shift(shift_p self)\/\/ÀÊª˙≤˙…˙“∆Œªæÿ’Û$/;"	f	typeref:typename:INT	file:
+row_min	include/matrix.h	/^    INT (*row_min)(matrix_p self,UINT row_number,UINT *pos_1,UINT *pos_2);$/;"	m	struct:MATRIX	typeref:typename:INT (*)(matrix_p self,UINT row_number,UINT * pos_1,UINT * pos_2)
+row_min	src/matrix.c	/^static INT row_min(matrix_p self,UINT row_number,UINT *pos_1,UINT *pos_2){$/;"	f	typeref:typename:INT	file:
+row_size	include/matrix.h	/^    INT row_size;$/;"	m	struct:MATRIX	typeref:typename:INT
+row_subtraction	include/matrix.h	/^    INT (*row_subtraction)(matrix_p self,UINT row_number,UINT decrease);$/;"	m	struct:MATRIX	typeref:typename:INT (*)(matrix_p self,UINT row_number,UINT decrease)
+row_subtraction	src/matrix.c	/^static INT row_subtraction(matrix_p self,UINT row_number,UINT decrease){$/;"	f	typeref:typename:INT	file:
+shift	include/shift.h	/^}shift ;$/;"	t	typeref:struct:SHIFT
+shift_col_add	include/shift.h	/^    INT (*shift_col_add)(shift_p self,UINT col_number,UINT increase);\/\/ªÒ»°¡–º”1$/;"	m	struct:SHIFT	typeref:typename:INT (*)(shift_p self,UINT col_number,UINT increase)
+shift_col_add	src/shift.c	/^static INT shift_col_add(shift_p self,UINT col_number,UINT increase){$/;"	f	typeref:typename:INT	file:
+shift_matirx_p	include/decoder.h	/^    shift_p shift_matirx_p;$/;"	m	struct:DECODER	typeref:typename:shift_p
+shift_matrix	old/struct.h	/^    struct SHIFT_MATRIX * shift_matrix;$/;"	m	struct:ENCODING	typeref:struct:SHIFT_MATRIX *
+shift_matrix_p	include/shift.h	/^    matrix_p shift_matrix_p;$/;"	m	struct:SHIFT	typeref:typename:matrix_p
+shift_max	include/decoder.h	/^    UINT shift_max;$/;"	m	struct:DECODER	typeref:typename:UINT
+shift_max	include/encoder.h	/^    UINT shift_max;$/;"	m	struct:ENCODER	typeref:typename:UINT
+shift_max	include/shift.h	/^    INT shift_max;$/;"	m	struct:SHIFT	typeref:typename:INT
+shift_max	old/struct.h	/^     int shift_max;$/;"	m	struct:SHIFT_MATRIX	typeref:typename:int
+shift_max	old/struct.h	/^    int shift_max;$/;"	m	struct:ENCODING	typeref:typename:int
+shift_p	include/encoder.h	/^    shift_p shift_p;$/;"	m	struct:ENCODER	typeref:typename:shift_p
+shift_p	include/shift.h	/^typedef struct  SHIFT * shift_p;$/;"	t	typeref:struct:SHIFT *
+shift_p	old/struct.h	/^     unsigned char * shift_p;\/\/ ˝æ›À˘‘⁄µƒŒª÷√$/;"	m	struct:SHIFT_MATRIX	typeref:typename:unsigned char *
+shift_row_min	include/shift.h	/^    INT (*shift_row_min)(shift_p self,UINT row_number,UINT *pos_1,UINT *pos_2);\/\/ªÒ»°ƒ≥“ª––÷–◊/;"	m	struct:SHIFT	typeref:typename:INT (*)(shift_p self,UINT row_number,UINT * pos_1,UINT * pos_2)
+shift_row_min	src/shift.c	/^static INT shift_row_min(shift_p self,UINT row_number,UINT * pos_1,UINT * pos_2){$/;"	f	typeref:typename:INT	file:
+show	include/decoder.h	/^    INT (*show)(decoder_p self);\/\/da'yin$/;"	m	struct:DECODER	typeref:typename:INT (*)(decoder_p self)
+show	include/matrix.h	/^    INT (*show)(matrix_p self,CHAR * title);$/;"	m	struct:MATRIX	typeref:typename:INT (*)(matrix_p self,CHAR * title)
+show	src/decoder.c	/^static INT show(decoder_p self){$/;"	f	typeref:typename:INT	file:
+show	src/matrix.c	/^static INT show(matrix_p self,CHAR * title){$/;"	f	typeref:typename:INT	file:
+show_encoding_data	include/encoder.h	/^    INT (*show_encoding_data)(encoder_p self);\/\/¥Ú”° ˝æ›$/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self)
+show_encoding_data	src/encoder.c	/^INT show_encoding_data(encoder_p self){$/;"	f	typeref:typename:INT
+show_ori_data	include/encoder.h	/^    INT (*show_ori_data)(encoder_p self);$/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self)
+show_ori_data	include/ori_data.h	/^    INT (*show_ori_data)(ori_data_p self);\/\/¥Ú”° ˝æ›$/;"	m	struct:ORI_DATA	typeref:typename:INT (*)(ori_data_p self)
+show_ori_data	src/encoder.c	/^INT show_ori_data(encoder_p self){$/;"	f	typeref:typename:INT
+show_ori_data	src/ori_data.c	/^static INT show_ori_data(ori_data_p self)\/\/¥Ú”° ˝æ›$/;"	f	typeref:typename:INT	file:
+show_shift	include/encoder.h	/^    INT (*show_shift)(encoder_p self);$/;"	m	struct:ENCODER	typeref:typename:INT (*)(encoder_p self)
+show_shift	include/shift.h	/^    INT (*show_shift)(shift_p self);\/\/¥Ú”° ˝æ›$/;"	m	struct:SHIFT	typeref:typename:INT (*)(shift_p self)
+show_shift	src/encoder.c	/^INT show_shift(encoder_p self){$/;"	f	typeref:typename:INT
+show_shift	src/shift.c	/^static INT show_shift(shift_p self)\/\/¥Ú”° ˝æ›$/;"	f	typeref:typename:INT	file:
+test_encoding	src/encoder.c	/^#define test_encoding /;"	d	file:
+type_size	include/matrix.h	/^    size_t type_size;$/;"	m	struct:MATRIX	typeref:typename:size_t
+zigzag_method	include/decoder.h	/^}zigzag_method;$/;"	t	typeref:enum:DECODING_METHOD
